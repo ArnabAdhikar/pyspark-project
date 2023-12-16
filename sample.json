@@ -1,0 +1,73 @@
+{
+    "filename": "orderDetails",
+    "datasets": [
+        {
+            "orderId": "ord1001",
+            "customerId": "cust5001",
+            "orderDate": "2021-12-24 00.00.00.000",
+            "shipmentDetails": {
+                "street": "M.G.Road",
+                "city": "Delhi",
+                "state": "New Delhi",
+                "postalCode": "110040",
+                "country": "India"
+            },
+            "orderDetails": [
+              {
+                "productId": "prd9001",
+                "quantity": 2,
+                "sequence": 1,
+                "totalPrice": {
+                  "gross": 550,
+                  "net": 500,
+                  "tax": 50
+                }
+              },
+              {
+                "productId": "prd9002",
+                "quantity": 3,
+                "sequence": 2,
+                "totalPrice": {
+                  "gross": 300,
+                  "net": 240,
+                  "tax": 60
+                }
+              }
+            ]
+        },
+        {
+            "orderId": "ord1002",
+            "customerId": "cust5002",
+            "orderDate": "2021-12-25 00.00.00.000",
+            "shipmentDetails": {
+                "street": "Malad",
+                "city": "Mumbai",
+                "state": "Maharastra",
+                "postalCode": "400064",
+                "country": "India"
+            },
+            "orderDetails": [
+              {
+                "productId": "prd9001",
+                "quantity": 1,
+                "sequence": 1,
+                "totalPrice": {
+                  "gross": 275,
+                  "net": 250,
+                  "tax": 25
+                }
+              },
+              {
+                "productId": "prd9004",
+                "quantity": 4,
+                "sequence": 2,
+                "totalPrice": {
+                  "gross": 1000,
+                  "net": 900,
+                  "tax": 100
+                }
+              }
+            ]
+        }
+    ]
+}
